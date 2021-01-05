@@ -171,7 +171,7 @@ header {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 105%;
+  top: 87%;
   width: auto;
   margin-top: -22px;
   padding: 16px;
@@ -183,7 +183,7 @@ header {
   user-select: none;
 }
 .next {
-  right: 70.2%;
+  right: 76.2%;
   border-radius: 3px 0 0 3px;
 }
 
