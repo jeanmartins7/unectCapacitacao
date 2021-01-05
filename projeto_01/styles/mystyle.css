@@ -135,16 +135,29 @@ header {
 .sobreNos h1 {
   margin-top: 80px;
   margin-left: 100px;
+  width: 138px;
+  height: 34px;
+  left: 100px;
+  top: 634px;
+
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 34px;
+
+  /* brandBlack */
+
+  color: #111111;
 }
 
 .box {
-  box-sizing:border-box;
+  box-sizing: border-box;
   width: 761px;
   height: 272px;
   margin-top: 32px;
   margin-left: 100px;
   display: flex;
-  
 
   background: #f2f3f4;
   box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.1);
@@ -154,10 +167,11 @@ header {
 .mySlides {
   display: none;
 }
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
-  top: 75%;
+  top: 105%;
   width: auto;
   margin-top: -22px;
   padding: 16px;
@@ -169,13 +183,13 @@ header {
   user-select: none;
 }
 .next {
-  right: 78.5%;
+  right: 70.2%;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .box p {
@@ -193,8 +207,117 @@ header {
   opacity: 0.8;
 }
 
+.vagas h1 {
+  margin-top: 80px;
+  margin-left: 100px;
+  width: 84px;
+  height: 34px;
+
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 34px;
+  color: #111111;
+}
+
+.vagasDesign {
+  display: inline-flex;
+}
+
+#design {
+  margin-top: 32px;
+}
+
+.vagasBlock {
+  width: 1366px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.vagasBlock lu {
+  justify-content: space-around;
+  margin-left: 100px;
+  
+}
+
+.vagasBlock lu p {
+  width: 320px;
+  height: 145px;
+
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #111111;
+}
+
+.tituloUm {
+  width: 71px;
+  height: 25px;
+
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 25px;
+
+  color: #226ed8;
+}
+
+.tituloDois {
+  width: 85px;
+  height: 25px;
+  left: 219px;
+  top: 1118px;
+
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 25px;
+
+  color: rgba(63, 61, 86, 0.5);
+}
+
+#lineSeparation {
+  width: 1366px;
+  height: 1px;
+  left: 0px;
+  top: 1634px;
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  box-sizing: border-box;
+}
+.alumni {
+  width: 1366px;
+  height: 400px; 
+}
+
+.alumni h1 {
+  width: 364px;
+  height: 36px;
+  margin-top: 80px;
+  margin-left: 100px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
+  color: #111111;
+}
+#samsung {
+  margin-left: 100px;
+}
+.alumni a {
+  margin-top: 52px;
+  margin-right: 65px;    
+}
+
 footer {
   background-color: black;
+  margin-top: 80px;
   width: 1366px;
   height: 428px;
   display: flex;
