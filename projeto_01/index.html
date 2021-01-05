@@ -5,6 +5,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+    <link href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/mystyle.css">
     <title>Processo Seletivo Unect</title>
 </head>
@@ -51,12 +52,18 @@
         <container class="sobreNos">
             <h1>Sobre nós</h1>
             <div class="box">
-                <div class="MagicScroll" data-options="width: 347 ; height=272; items: fit; step: 1;">
-                    <img src="./img/main/sobre-bg.jpg" />
-                    <img src="./img/main/sobre-bg-dois.jpg" />
-                </div> 
+                <div class="mySlides">
+                    <img border="0" alt="fig1" src="./img/main/sobre-bg.jpg" width="347" height="272">
+                  </div>
+                
+                  <div class="mySlides">
+                    <img border="0" alt="fig1" src="./img/main/sobre-bg-dois.jpg" width="347" height="272">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>  
                 <p>A Unect Jr. é uma Empresa Júnior vinculada aos cursos de Computação da UTFPR-CP que desenvolve sites, aplicações mobile e web, e que busca, através da vivência empresarial, proporcionar aos seus membros o ambiente ideal para que eles se desenvolvam e apliquem os seus conhecimentos, que vão muito além da área de computação.</p> 
             </div>
+
                        
         </container>
         <container class="vagas">
@@ -65,7 +72,7 @@
         <container class="alumni">
             <h1>Onde estão nossos alumni?</h1>
         </container>
-        <script src="./script.js"></script>
+
     </main>
     <footer>
         <container class="socialMedia">
@@ -119,4 +126,6 @@
     </footer>
     
 </body>
+<script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+<script src="./script.js"></script>
 </html>
