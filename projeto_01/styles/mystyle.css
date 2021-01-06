@@ -276,9 +276,9 @@ header {
   position: absolute;
   top: 87%;
   width: auto;
-  margin-top: -22px;
+  margin-top: -250px;
   padding: 16px;
-  color: red;
+  color: white;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -286,7 +286,7 @@ header {
   user-select: none;
 }
 .next {
-  right: 76.2%;
+  right: 81%;
   border-radius: 3px 0 0 3px;
 }
 
