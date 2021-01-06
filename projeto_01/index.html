@@ -123,6 +123,50 @@
             <a><img border="0" alt="ambev" src="./img/alumni/ambev-logo.png" width="156" height="39"></a>
         </container>
 
+        <button type="button" class="questionForm" id="questionForm">
+            <img
+                src="img/main/ant-design_question-circle-outlined.svg"
+                class="icon"
+            />
+        </div>
+
+        <div id="form" class="form">
+            <div class="form-content">
+                <div class="form-title">
+                    Pergunta pra gente 😊
+                </div>
+                <form class="content">
+                    <div class="content-item">
+                        <label for="nome">Nome</label>
+                        <input type="text" 
+                            id="nome" name="nome" 
+                            value="John Doe" class="field" 
+                            placeholder="Escreva seu nome "/>
+                    </div>
+                    <div class="content-item">
+                        <label for="email">E-mail</label>
+                        <input type="text" id="email" 
+                        name="email" value="johndoe@me.com" class="field"
+                        placeholder="Escreva o seu E-mail"
+                        />
+                    </div>
+                    <div class="content-item">
+                        <label for="msg">Mensagem</label >
+                        <textarea type="text" id="msg" 
+                        name="msg" value="" class="field"
+                        placeholder="Escreva aqui..."
+                        ></textarea>
+                    </div>
+                </form>
+                <div class="form-footer">
+                    <div class="footer-content">
+                        <span class="close">Cancelar</span>
+                        <span style="font-weight: bold">Enviar</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </main>
     <footer>
         <container class="socialMedia">
@@ -178,4 +222,6 @@
 </body>
 <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
 <script src="./script.js"></script>
+<script src="./form.js"></script>
 </html>
+

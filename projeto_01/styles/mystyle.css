@@ -151,6 +151,109 @@ header {
   color: #111111;
 }
 
+.questionForm {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  right: 1200px;
+  top: 671px;
+
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  background-color: #111111;
+  bottom: 50px;
+}
+
+.form {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 80px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.form-content {
+  background-color: #fefefe;
+  border-radius: 6px;
+  margin: auto;
+  border: 1px solid #888;
+  width: 430px;
+  height: 550px;
+}
+
+.form-title {
+  height: 100px;
+  background-color: #ececec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #226ed8;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.content {
+  margin: 30px 40px 0 40px;
+}
+.content-item {
+  display: flex;
+  flex-direction: column;
+}
+.content-item label {
+  font-size: 16px;
+
+  align-self: flex-start;
+}
+.content-item textarea {
+  min-height: 130px;
+  max-height: 130px;
+  min-width: 100%;
+  max-width: 100%;
+}
+.field {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 7px;
+  height: 40px;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form-footer {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-content {
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+.close {
+  color: #aaaaaa;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .box {
   box-sizing: border-box;
   width: 761px;
@@ -175,7 +278,7 @@ header {
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: red;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -237,7 +340,6 @@ header {
 .vagasBlock lu {
   justify-content: space-around;
   margin-left: 100px;
-  
 }
 
 .vagasBlock lu p {
@@ -292,7 +394,7 @@ header {
 }
 .alumni {
   width: 1366px;
-  height: 400px; 
+  height: 400px;
 }
 
 .alumni h1 {
@@ -312,7 +414,7 @@ header {
 }
 .alumni a {
   margin-top: 52px;
-  margin-right: 65px;    
+  margin-right: 65px;
 }
 
 footer {
